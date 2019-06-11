@@ -6,7 +6,7 @@ const pkg = require('./package.json');
 const Db = require('./db');
 const printTable = require('./table');
 
-const indexRoot = '/Users/anders.grendstadbakk/Projects';
+const indexRoot = process.cwd();
 const db = new Db();
 
 const ignoreItems = [
